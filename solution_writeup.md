@@ -1,9 +1,5 @@
 ## Project: 3D Motion Planning
 
-![Quad Image](./misc/enroute.png)
-
----
-
 # Required Steps for a Passing Submission:
 
 1. Load the 2.5D map in the colliders.csv file describing the environment.
