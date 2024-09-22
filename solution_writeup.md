@@ -73,7 +73,7 @@ Minimal requirement here is to modify the code in planning_utils() to update the
 
 See line 58-61 in `planning_utils()`. I achieved the minimal requirement of adding diagonal motions with a cost of sqrt(2). The diagonal motions just increment the the x, y values by +1 or -1 depending on the direction. Since A* iterates over each action already in `valid_actions()`, the new motions I added were introduced. 
 
-![Drone flying on it's path](./misc/snip_of_drone_flying.png)
+![Drone flying on it's path](./snip_of_drone_flying.png)
 
 #### 6. Cull waypoints
 
@@ -86,7 +86,7 @@ If they aren't collinear, then that current point in the path is added to the pr
 
 ### Execute the flight
 
-![Short video of drone flight](./misc/3D_motion_planning_project.mp4)  
+![Short video of drone flight](./3D_motion_planning_project.mp4)  
 
 #### 1. Does it work?
 
